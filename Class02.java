@@ -1,4 +1,5 @@
 package Java111Q1;
+
 import Java111Q1.Data;
 
 class Data {
@@ -30,16 +31,15 @@ class Data {
         name = n;
         score = new Test(eng, m);
     }
-public class Class02 {
-
-
-    public static void main(String[] args) {
-        Data stu1 = new Data("Annie", 85, 92);
-        Data stu2 = new Data("brian", 77, 56);
-        stu1.show();
-        stu2.show();
-
-    }
-
 }
+    public class Class02 {
+
+        public static void main(String[] args) {
+            Data stu1 = new Data("Annie", 85, 92);
+            Data stu2 = new Data("Brian", 77, 56);
+            stu1.show();
+            stu2.show();
+
+        }
+
 }
